@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+}
+.left_Container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 2%;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 2px;
+}
+.top_left {
+  background-color: #665e7c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top_left h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.top_left p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.bottom_left{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.slider_Div {
+  width: 50%;
+  padding: 10px;
+}
+.input_Group {
+  padding: 2%;
+  margin-top: 2%;
+  height: 50px;
+  width: 100%;
+}
+
+.label_Above {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left_Text {
+  font-weight: bold;
+  font-size: large;
+  color: #3c3c3d;
+}
+
+.right_Text {
+  padding: 5px 20px;
+  background-color: #cdc7e2;
+  border-radius: 5px;
+}
+.right_Container {
+  flex: 1;
+  margin: 1%;
+  padding: 10px;
+}
+.right_Container > div:nth-child(1) {
+  margin: 1%;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.right_Container > div:nth-child(2) {
+  margin: 1%;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.input_Below {
+  appearance: none;
+  margin-top: 15px;
+  width: 100%;
+  height: 10px;
+}
+.input_Below::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #4e3c86;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+.results_Container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.results_Container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid #4e3c86;
+  padding-bottom: 10px;
+}
+
+.result_Item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.result_Item:last-child {
+  border-bottom: none;
+}
+
+.result_Label {
+  font-weight: bold;
+  color: #4e3c86;
+}
+
+.result_Value {
+  font-weight: bold;
+  color: #333;
+  padding: 5px;
+}
