@@ -8,7 +8,7 @@
   flex-direction: column;
   margin: 2%;
   padding: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 2px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .top_left {
   background-color: #665e7c;
@@ -155,15 +155,14 @@
   }
   .right_Container {
     flex-wrap: wrap;
-   margin: auto;
+   margin: 5px;
+   max-width: 300px;
     
   }
   .right_Container > div:nth-child(1) {
-    scrollbar-width: 20px;
+    overflow-x: auto;
   }
-  .right_Container > div:nth-child(2) {
-    
-  }
+  
 }
 
 /* Media queries for tablet */
